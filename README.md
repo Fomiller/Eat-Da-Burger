@@ -6,7 +6,7 @@
 ## Description
 Eat-Da-Burger is a application that allows you to order your favorite burger and devour it. Don't forget to throw it away when you are done!
 
-<img src="./Assets/images/01_screenShot.PNG" alt="Team Generator CLI"/>
+<img src="./public/assets/images/01_screenShot.PNG" alt="Team Generator CLI"/>
 
 ## Table of Contents
 * [Installation](#Installation)
