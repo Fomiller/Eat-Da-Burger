@@ -1,6 +1,6 @@
 
 # Eat-Da-Burger
- 
+![Commits](https://img.shields.io/github/last-commit/Fomiller/Eat-Da-Burger) 
 ## Languages
 ![HTML](https://img.shields.io/badge/language-HTML-ff69b4)&ensp;![CSS](https://img.shields.io/badge/language-CSS-blueviolet)&ensp;![JavaScript](https://img.shields.io/badge/language-JavaScript-red)&ensp;![jQuery](https://img.shields.io/badge/language-jQuery-blueviolet)&ensp;![Node.js](https://img.shields.io/badge/language-Node.js-red)&ensp;
 ## Description
