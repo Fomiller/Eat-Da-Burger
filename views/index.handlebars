@@ -19,7 +19,7 @@
               <div class="card-body">
                   {{#each burger}}
                     {{#unless devoured}}
-                      {{> burgers/burger-block devoured=true}}
+                      {{> burgers/burger-block devoured=false}}
                     {{/unless}}
                   {{/each}}
               </div>
@@ -29,9 +29,9 @@
       <div class="col-md-6">
         <div class="card">
             <div class="card-body">
-                {{#each burgers}}
+                {{#each burger}}
                   {{#if devoured}}
-                    {{> burgers/burger-block devoured=false}}
+                    {{> burgers/burger-block-devoured devoured=true}}
                   {{/if}}
                 {{/each}}
             </div>
