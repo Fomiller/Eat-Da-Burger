@@ -19,7 +19,7 @@ router.get("/", function(req, res) {
 router.get("/api/burgers", function(req, res) {
 	burger.all(function(data) {
 			var hbsObject = {
-			cats: data
+			burger: data
 			};
 			console.log(hbsObject);
 			res.json(hbsObject);
@@ -28,7 +28,7 @@ router.get("/api/burgers", function(req, res) {
 
 // creating new burger
 router.post("/api/burgers", function(req, res) {
-  burger.create(["burger_name"], [ req.body.name], function(result) {
+  burger.create(["burger_name"], [ req.body.burger_name], function(result) {
     // Send back the ID of the new quote
     res.json({ id: result.insertId });
   });
